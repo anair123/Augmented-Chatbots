@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DATS 6501 Capstone Project</title>   
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="problem statement.html">Problem Statement</a></li>
+            <li><a href="procedure.html" style="border-style: solid;">Procedure</a></li>
+            <li><a href="results.html">Results</a></li>
+            <li><a href="conclusion.html">Conclusion</a></li>
+        </ul>
+    </nav>
+    <h1>Procedure</h1>
+    <h2 class="data_preprocessing">Data Preprocessing</h2>
+    <img class="img4" src="data modeling.png" alt="img4">
+
+    <p class="data_preprocessing_para">The data is first subject to a thorough data preprocessing procedure. Tweets that were too short (i.e. 3 words or less) 
+        or tweets that were classified as retweets were omitted. Within the remaining tweets, all links, emojis, and characters that were not alphabets, numbers, 
+        or punctuation were removed. By the end of the data preprocessing, the dataset had 36,343 rows and 6 columns. </p>
+
+    <h2 class="data_modeling">Data Modeling</h2>
+    <p class="data_modeling_para">In search of the best model for generating text based on tweets, 3 models were utilized. The first 2 were LSTM models built from scratch. 
+        One LSTM model is a baseline model with minimal complexities, consisting of only 1 hidden layer. The other LSTM model was subject to more experimentation. 
+        Different combinations of hidden layers, neurons, and activation functions were tested in search of the best performing model. 
+        Ultimately, the modified LSTM model had 3 hidden layers with 256, 128, and 64 neurons, respectively. Each hidden layer used the ‘relu’ activation function and was followed by a dropout layer.
+        <br>The project also relied on transfer learning with the inclusion of OpenAI’s GPT-2 model. Since the original GPT-2 model is massive (1.5 billion parameters), 
+        training it with each celebrity’s data would require an exorbitant amount of time and computation. Thus, a miniaturized version of the GPT-2 model (124 million parameters) was used instead. 
+        The text generation with the GPT-2 model was tested at different temperature levels, ranging from 0.5 to 1.2. 
+        </p>
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #282828;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #DCDCDC;
+
+}
+ul {
+    margin-left: 40px
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 100px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    color: #1e1e1e;
+    padding: 0 20px;
+    display: block;
+}
+
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.intro_header {
+    margin-top: 40px;
+    text-align: center;
+    color: lightgray;
+    font-size: 60px;
+    font-family: vERDANA;
+}
+
+.intro_subheader {
+    text-align: center;
+    color: lightgray;
+    font-size: 35px;
+    font-family: vERDANA;
+}
+
+.emma {
+    width: 350px;
+    height: 400px;
+    display: block;
+    float: left;
+    margin-top: 50px;
+    margin-left: 350px;
+    padding: 30px;
+}
+
+.intro_para {
+    color: lightgray;
+    text-align: left;
+    margin-top: 150px;
+    font-size: 60px;
+    font-family: Verdana;
+}
+
+.intro_description {
+    color: lightgray;
+    text-align: left;
+    margin-left: 350px;
+    margin-top: 20px;
+    font-family: Verdana;
+}
+
+h1 {
+    text-align: center;
+    color: lightgray;
+    font-family: Verdana;
+    margin-top: 20px;
+}
+
+.problem_statement {
+    color: lightgray;
+    font-family: Verdana;
+    border-style: solid;
+    padding: 10px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 30px;
+
+
+}
+
+.results{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: lightgray;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.img2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.img3 {
+    width: 350px;
+    height: 350px;
+    margin-left: 500px;
+    position: absolute;
+}
+
+.img4 {
+    width: 350px;
+    height: 350px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    position: absolute;
+}
+
+.data_preprocessing {
+    text-align: center;
+    color: lightgray;
+    margin-top: 50px;
+    font-family: Verdana;
+    margin-left: 250px;
+    font-family: Verdana;
+}
+
+.data_modeling {
+    text-align: center;
+    color: lightgray;
+    margin-top: 50px;
+    font-family: Verdana;
+    margin-left: 180px;
+
+}
+
+.data_preprocessing_para {
+    text-align: left;
+    color: lightgray;
+    margin-left: 945px;
+    margin-top: 20px;
+    margin-right: 300px;
+    font-family: Verdana;
+
+}
+
+.data_modeling_para {
+    text-align: left;
+    color: lightgray;
+    margin-left: 945px;
+    margin-top: 20px;
+    margin-right: 300px;
+    font-family: Verdana;
+
+}
+
+.conclusion {
+    color: lightgray;
+    font-family: Verdana;
+    border-style: solid;
+    padding: 10px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
