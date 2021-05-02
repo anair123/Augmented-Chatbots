@@ -135,7 +135,6 @@ h1 {
     color: lightgray;
     margin-top: 50px;
     font-family: Verdana;
-    margin-left: 250px;
     font-family: Verdana;
 }
 
@@ -144,27 +143,28 @@ h1 {
     color: lightgray;
     margin-top: 50px;
     font-family: Verdana;
-    margin-left: 180px;
 
 }
 
 .data_preprocessing_para {
-    text-align: left;
     color: lightgray;
-    margin-left: 945px;
-    margin-top: 20px;
-    margin-right: 300px;
     font-family: Verdana;
+    border-style: solid;
+    padding: 10px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 30px;
 
 }
 
 .data_modeling_para {
-    text-align: left;
     color: lightgray;
-    margin-left: 945px;
-    margin-top: 20px;
-    margin-right: 300px;
     font-family: Verdana;
+    border-style: solid;
+    padding: 10px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 30px;
 
 }
 
